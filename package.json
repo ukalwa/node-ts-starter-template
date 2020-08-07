@@ -11,7 +11,7 @@
     "test:coverage": "jest --coverage",
     "start": "node --inspect=5858 -r ts-node/register ./src/index.ts",
     "start:w": "nodemon",
-    "clean": "rimraf dist",
+    "clean": "rimraf dist coverage",
     "lint": "eslint . --ext .ts --fix",
     "prebuild": "yarn lint",
     "build": "yarn clean && tsc -p tsconfig.build.json",
@@ -27,6 +27,7 @@
     "jest": "^26.2.2",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
     "ts-jest": "^26.1.4",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
