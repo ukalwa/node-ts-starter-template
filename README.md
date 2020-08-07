@@ -6,9 +6,7 @@ This template includes the following configuration/setup:
 
 - ESLint as linter, Prettier as formatter, and Jest as the test runner and code coverage report generator.
 
-- A simple configuration (`.travis.yml`) to setup continuous integration (CI) with [Travis CI](https://travis-ci.com/).
-
-- The CI configuration is setup to send code coverage reports to [codecov](https://codecov.io).
+- A simple configuration (`.travis.yml`) to setup continuous integration (CI) with [Travis CI](https://travis-ci.com/) which sends code coverage reports to [codecov](https://codecov.io).
 
 - Devcontainer is preconfigured to be used with Visual Studio Code.
 
