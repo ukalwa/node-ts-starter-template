@@ -6,7 +6,7 @@
 version: "3"
 services:
   web:
-    image: ukalwa/node
+    image: ukalwa/node:lts
 
     volumes:
       - ..:/workspace:cached
